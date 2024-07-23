@@ -97,6 +97,34 @@ body {
     font-weight: bold;
 }
 
+.c2a-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3882F6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    gap: 200px;
+    color: #F9FAF8;
+}
+
+.modal-header { 
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.right-elements button {
+    border: 2px solid #F9FAF8;
+}
+
 button {
     background: #3882F6;
     border-radius: 6px;
