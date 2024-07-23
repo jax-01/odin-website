@@ -70,6 +70,33 @@ body {
     margin-bottom: 12px;
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E7EB;
+
+    padding: 100px;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 830px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 button {
     background: #3882F6;
     border-radius: 6px;
